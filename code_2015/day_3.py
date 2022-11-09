@@ -1,4 +1,4 @@
-def get_input():
+def get_input() -> str:
     with open('day_3_input.txt', 'r') as f:
         txt = f.readlines()
     return txt[0]
